@@ -1,0 +1,30 @@
+/*Este é um comentário em CSS */
+/*Seletor de elemento -- aplica a todos os elementos do body*/
+
+body {
+    color: rgb(77, 254, 2);
+}
+
+/*seletor de classe -- aplica a qualquer elemento com class = "destaque"*/
+
+.destaque {
+    color: rgb(29, 29, 38);
+}
+
+/*seletor de ID -- aplica a qualquer elemento com ID = "cabeçalho"*/
+
+#cabecalho {
+    background-color: rgb(106, 98, 98);
+}
+
+/*seletor descendente -- aplica a tag <a> dentro de <nav>*/
+
+nav a {
+    color: black;
+}
+
+/*pseudo classe -- estilo quando o mouse passa em cima do elemento*/
+
+a:hover{
+    color: rgb(77, 254, 2);
+}
